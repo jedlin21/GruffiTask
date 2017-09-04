@@ -118,7 +118,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    padding: 0 5.5%;
+    padding: 0 1.5%;
 }
 
 @media screen and (min-width: 1360px) {
@@ -130,6 +130,7 @@ textarea {
 @media all and (max-width: 640px) {
     #content{
         width: 100%;
+        padding: 0 5.5%;
     }
 }
 /* *********************   top_bar ******************* */
