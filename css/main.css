@@ -118,12 +118,18 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    padding: 0 2.5%;
+    padding: 0 5.5%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 1360px) {
     #content{
-        width: 94%;
+        width: 44%;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #content{
+        width: 100%;
     }
 }
 /* *********************   top_bar ******************* */
@@ -184,7 +190,7 @@ textarea {
 
 
 /*************** top_bar responsiveness ***********/
-@media screen and (max-width: 970px) {
+@media all and (max-width: 1100px) {
     #agora img{
         margin-top: 5px;
         height: 30px;
@@ -195,9 +201,24 @@ textarea {
     }
 }
 
-/********************* video ****************************/
+/********************* video and owl ****************************/
+#video_and_owl{
+    position: relative;
+}
+
+#owl{
+    position: absolute;
+    top:-95px;
+    left: 25%;
+}
+
+#owl img{
+    height: 105px;
+    width: auto;
+}
+
 #video{
-    margin-top: 10vw;
+    margin-top: 66px;
     padding: 7px;
     background-color: white;
     border-radius: 2px;
@@ -213,6 +234,25 @@ textarea {
 
     #video iframe {
         height: 47vw;
+    }
+}
+
+/*************** video and owl responsiveness ***********/
+@media all and (max-width: 570px) {
+    #video{
+        margin-top: 92px;
+    }
+
+
+}
+
+@media all and (max-width: 500px) {
+    #video{
+        margin-top: 92px;
+    }
+
+    #owl{
+        left: 15%;
     }
 }
 
