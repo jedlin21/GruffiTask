@@ -133,7 +133,7 @@ textarea {
         padding: 0 5.5%;
     }
 }
-/* *********************   top_bar ******************* */
+                        /* *********************  %%% top_bar  %%% ******************* */
 
 #top_bar{
     overflow: hidden;
@@ -202,7 +202,7 @@ textarea {
     }
 }
 
-/********************* video and owl ****************************/
+                          /********************* %%% video and owl %%% ****************************/
 #video_and_owl{
     position: relative;
 }
@@ -256,6 +256,238 @@ textarea {
         left: 15%;
     }
 }
+
+
+                /********************* %%% bottom content %%% ****************************/
+#bottom_content{
+    overflow: hidden;
+}
+
+#bottom_content .content_bar{
+    margin-top: 30px;
+    float: left;
+    width: 47%;
+    box-sizing: border-box;
+}
+
+                 /********************* left bottom ****************************/
+#bottom_content .left{
+    background-color: #f3f3f3;
+    margin-right: 3%;
+    border-radius: 4px;
+}
+
+#forms_and_buttons{
+    margin: 20px auto;
+    width: 80%;
+}
+
+#sing_ups button{
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: "Arial", serif;
+    color: white;
+    line-height: 0.85;
+    text-align: left;
+    text-shadow: 0px -1px 0px rgba(35, 52, 86, 0.9);
+}
+
+#sing_ups #linkedin{
+    background-color: #005e91;
+}
+
+#sing_ups #facebook{
+    background-color: #4a6499;
+}
+
+#sing_ups img{
+    padding: 3px 7px 0;
+}
+
+#or h3{
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: "Arial";
+    color: #7c7c7c;
+    font-weight: bold;
+    line-height: 1.308;
+    position: relative;
+}
+
+
+
+#or h3:after{
+    content: '';
+    width: 42%;
+    position: absolute;
+    left: 56%;
+    top: 9px;
+    border: 1px dashed #7c7c7c;
+}
+
+#or h3:before{
+    content: '';
+    width: 43%;
+    position: absolute;
+    left: 1%;
+    top: 9px;
+    border: 1px dashed #7c7c7c;
+}
+
+/********************* sing up data****************************/
+#sing_up_data{
+    overflow: hidden;
+}
+
+#sing_up_data div{
+    float: left;
+}
+
+#sing_up_data input{
+    padding: 4px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(88, 88, 88);
+    text-transform: uppercase;
+    line-height: 1.545;
+    text-align: left;
+    border: 1px solid #c9c9c9;
+}
+
+#sing_up_data input:on{
+    background-color: #7c7c7c;
+}
+
+#first_name, #second_name{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#first_name{
+    padding-right: 4px;
+}
+
+#second_name{
+    padding-left: 4px;
+}
+
+#password, #mail{
+    margin-top: 8px;
+    width: 100%;
+}
+
+#by_creating_an_account {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(67, 67, 67);
+    line-height: 1.308;
+    text-align: left;
+    margin-top: 8px;
+}
+
+#by_creating_an_account a{
+    color: #2595b7;
+    text-decoration: none;
+}
+
+#by_creating_an_account a:hover{
+    text-decoration: underline;
+}
+
+#sing_up_data #submit{
+    width: 100%;
+    margin-top: 8px;
+}
+
+#sing_up_data #submit input {
+    font-size: 18px;
+    font-family: "Ariel", serif;
+    color: white;
+    line-height: 0.654;
+    background-color: #cf5a08;
+    padding: 15px 0;
+    text-align: center;
+}
+/********************* own an account ****************************/
+
+#own_an_account{
+    background-color: #dedede;
+    text-align: right;
+    border-radius: 4px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+}
+
+#own_an_account h4{
+    margin: 0px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(67, 67, 67);
+    line-height: 1.133;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+    font-weight: 200;
+    width: 50%;
+    display: inline;
+}
+
+#own_an_account button{
+    display: inline;
+    margin: 10px 20px 10px 3px;
+    background-color: #a6a5a5;
+    color: black;
+    border-radius: 6px;
+    padding: 2px 8px;
+}
+
+
+
+/**************** left bottom responsiveness ******************/
+
+@media all and (max-width: 640px) {
+    #bottom_content .content_bar{
+        width: 100%;
+    }
+
+    #bottom_content .left{
+        margin-right: 0px;
+    }
+}
+
+                     /********************* right bottom ****************************/
+#bottom_content .right{
+    margin-left: 3%;
+}
+
+.right h2 {
+    text-align: left;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.right p{
+    text-align: left;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.right span{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.right #p_mail{
+    text-align: left;
+    font-size: 19px;
+}
+
 
 /* ==========================================================================
    Helper classes
