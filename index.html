@@ -23,10 +23,44 @@
         <div id="background">
             <div id="content">
                 <section id="top_bar">
+                    <div id="because_of_me_the_page_works"></div>
                     <article id="agora"><img src="img/agora.png" alt="Agora icon"></article>
                     <article id="buttons">
-                        <div class="button register">Register</div>
-                        <div class="button login">Login</div>
+
+                            <div class="button register">Register
+                               <div class="pop_up">
+                                   <form action="#">
+                                       <div id="sing_up_data">
+                                           <div id="first_name"><input type="text" size="12" name="first_name" placeholder="First name"></div>
+                                           <div id="last_name"><input type="text" size="12" name="last_name" placeholder="Last name"></div>
+                                           <div id="mail"><input type="email" size="25" name="mail" placeholder="E-MAIL ADRESS"></div>
+                                           <div id="password"><input type="password" size="25" name="password" placeholder="PASSWORD"></div>
+                                           <div id="submit"><input type="submit" name="submit" value="Create Account"></div>
+                                       </div>
+                                   </form>
+                               </div>
+                            </div>
+
+                            <div class="button login">Login
+                                <div class="pop_up">
+                                    <div class="sing_ups">
+                                        <button id="linkedin"><img src="img/LeftContentLinked.png"> SignUp with LinkedIn</button>
+                                        <button id="facebook"><img src="img/leftContentFb.png"> SignUp with Facebook</button>
+                                    </div>
+                                    <div id="bottom_pop_up">
+                                        <form action="#">
+                                            <div id="sing_up_data">
+                                                <div id="username"><input type="text" size="25" name="mail" placeholder="USERNAME"></div>
+                                                <div id="password"><input type="password" size="25" name="password" placeholder="PASSWORD"></div>
+                                                <div id="submit"><input type="submit" name="submit" value="Login"></div>
+                                                <div id="checkbox"><input type="checkbox" name="keep_me" value="keep_me">Keep me logged in<img src="img/slash.png">
+                                                    <a href="#">Forgot password?</a></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
                     </article>
                 </section>
                 <section id="video_and_owl">
@@ -40,7 +74,7 @@
                 <section id="bottom_content">
                     <div class="content_bar left">
                         <article id="forms_and_buttons">
-                            <div id="sing_ups">
+                            <div class="sing_ups">
                                 <button id="linkedin"><img src="img/LeftContentLinked.png"> SignUp with LinkedIn</button>
                                 <button id="facebook"><img src="img/leftContentFb.png"> SignUp with Facebook</button>
                             </div>
@@ -48,7 +82,7 @@
                             <form action="#">
                                 <div id="sing_up_data">
                                     <div id="first_name"><input type="text" size="12" name="first_name" placeholder="First name"></div>
-                                    <div id="second_name"><input type="text" size="12" name="second_name" placeholder="Second name"></div>
+                                    <div id="last_name"><input type="text" size="12" name="last_name" placeholder="Last name"></div>
                                     <div id="mail"><input type="email" size="25" name="mail" placeholder="E-MAIL ADRESS"></div>
                                     <div id="password"><input type="password" size="25" name="password" placeholder="PASSWORD"></div>
                                     <div id="by_creating_an_account">By creating an account you agree to our <a href="#">terms & contitions</a></div>
