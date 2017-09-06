@@ -163,14 +163,12 @@ textarea {
     background-color: #e9e9e9;
     position: absolute;
     right: calc(1.5% + 80px);
-    top: 0px;
 }
 
 #top_bar .login{
     background-color: #2595b7;
     position: absolute;
     right: 1.5%;
-    top: 0px;
 }
 
 #top_bar .button .pop_up{
