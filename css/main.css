@@ -156,6 +156,7 @@ textarea {
     width: 66px;
     padding: 2px 2px;
     border-radius: 2px;
+    margin-top: 10px;
 }
 
 #top_bar .register{
@@ -367,8 +368,32 @@ textarea {
 #video iframe{
     width: 100%;
     height: 300px;
-
 }
+
+#own_an_account{
+    position: relative;
+}
+
+#own_an_account:before, #own_an_account:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    transform: rotate(-3deg);
+}
+
+#own_an_account:after {
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
 
 /*************** video and owl responsiveness ***********/
 
@@ -553,6 +578,41 @@ textarea {
     padding: 15px 0;
     text-align: center;
 }
+
+
+#video:before{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+}
+
+video:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+}
+video:after
+{
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
 /********************* own an account ****************************/
 
 #own_an_account{
@@ -579,11 +639,11 @@ textarea {
 
 #own_an_account button{
     display: inline;
-    margin: 10px 20px 10px 3px;
     background-color: #a6a5a5;
     color: black;
     border-radius: 6px;
     padding: 2px 8px;
+    margin: 10px 10% 10px 3px;
 }
 
 
@@ -667,6 +727,14 @@ textarea {
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+
+/********************* error field js ****************************/
+.errorField{
+    background-color: rgba(255, 0, 0, 0.4);
+    border-color: red;
+}
+
+
 
 
 /* ==========================================================================
