@@ -242,6 +242,7 @@ textarea {
 
 #top_bar .button:hover .pop_up{
     z-index: 999;
+
 }
 
 .pop_up #sing_up_data #submit{
@@ -333,12 +334,6 @@ textarea {
     }
 }
 
-@media screen and (max-width: 450px) {
-
-    #top_bar .button .pop_up{
-        right: -84%;
-    }
-}
 
                           /********************* %%% video and owl %%% ****************************/
 #video_and_owl{
